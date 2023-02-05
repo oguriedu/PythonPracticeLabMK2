@@ -16,11 +16,11 @@ git clone https://github.com/oguriedu/PythonPracticeLab.git
 
 **LƯU Ý:** Nếu chưa sử dụng Gitbash trên máy bao giờ, Gitbash lúc này sẽ yêu cầu đăng nhập vào tài khoản git. Bắt buộc phải sử dụng tài khoản git gắn với gmail sinh viên được nhà trường cấp
 **KHUYÊN:** Trong trường hợp không chắc chắn về tài khoản git hiện đang sử dụng trên máy:
-    * B1: Logout toàn bộ tài khoản git trên tất cả các trình duyệt.
-    * B2: Nhấn window, tìm kiếm **Credential Manager**.
-    * B3: Chọn **Window Credentials**.
-    * B4: Ở mục **Generic Credentials** tìm tất cả mục sử dụng git và chọn **Remove**.
-    * B5: Clone repository về máy và đăng nhập lại github
+- B1: Logout toàn bộ tài khoản git trên tất cả các trình duyệt.
+- B2: Nhấn window, tìm kiếm **Credential Manager**.
+- B3: Chọn **Window Credentials**.
+- B4: Ở mục **Generic Credentials** tìm tất cả mục sử dụng git và chọn **Remove**.
+- B5: Clone repository về máy và đăng nhập lại github
 
 
 ## Thực hiện tạo nhánh chính của bản thân

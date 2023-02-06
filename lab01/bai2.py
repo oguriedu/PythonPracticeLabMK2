@@ -12,6 +12,5 @@ hours = (tong_so_giay % (24 * 60 * 60)) // (60 * 60)
 minutes = (tong_so_giay % (60 * 60)) // 60
 seconds = tong_so_giay % 60
 
-# In kết quả
 print("Tổng số giây:", tong_so_giay)
-print("Tổng số ngày, giờ, phút, giây:", days, "ngày,", hours, "giờ,", minutes, "phút,", seconds, "giây.")
+print("Tổng số ngày, giờ, phút, giây đã được đổi là :", days, "ngày,", hours, "giờ,", minutes, "phút,", seconds, "giây.")

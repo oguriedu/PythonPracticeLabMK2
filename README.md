@@ -45,7 +45,7 @@ git commit -m "first commit"
 - Push **NHÁNH CHÍNH** lên remote repository. Ví dụ:
 
 ```
-git push origin DHTI10A1HN-NgoQuangDai-1122334455
+git push origin DHKL16A1HN-LeThiLan-22174600093
 ```
 **LƯU Ý:** Kiểm tra kĩ nhánh hiện tại xem mình có đúng đang ở **NHÁNH CHÍNH** của mình không trước khi thực hiện. Nếu push vào nhánh **MAIN** hoặc **NHÁNH CỦA SINH VIÊN KHÁC**, vi phạm sinh viên sẽ bị trừ điểm quá trình.
 

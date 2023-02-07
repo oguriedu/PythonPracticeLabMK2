@@ -1,0 +1,19 @@
+#cau5
+import math
+
+print("nhap vecto a:")
+x1=int(input("nhap x1: "))
+y1=int(input("nhap y1: "))
+
+print("nhap vecto b:")
+x2=int(input("nhap x2: "))
+y2=int(input("nhap y2: "))
+
+gt_a=math.sqrt(x1**2+y1**2)
+gt_b=math.sqrt(x2**2+y2**2)
+
+cos_ab=(x1*x2+y1*y2)/(gt_a*gt_b)
+
+tich_vh=gt_a*gt_b*cos_ab
+
+print("tich vo huong cua hai vecto la: ",tich_vh)

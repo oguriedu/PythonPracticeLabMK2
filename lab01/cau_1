@@ -1,0 +1,8 @@
+#cau1
+ma_sv=int(input("nhap ma sv:"))
+ho_ten=input("nhap ho ten:")
+que_quan=input("nhap que quan:")
+nam_sinh=int(input("nhap nam sinh"))
+diem_tb=str(input("nhap diem tb:"))
+print(ma_sv, ho_ten, que_quan, nam_sinh, diem_tb)
+

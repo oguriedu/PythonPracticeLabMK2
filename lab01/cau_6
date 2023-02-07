@@ -1,0 +1,11 @@
+#cau6
+#P là công suấtđịnh mức(w), công thức P=U*I, trong đó U là hiệu điện thế(V), I là cường độ dòng điện(A)
+p=220*2.7
+
+s=int(input("nhap thoi gian dung bong den: "))
+
+#A là điện năng tiêu thụ(Kwh). s là thời gian(giây)
+a=p*s
+
+tien_dien=a*7
+print("tien dien phai tra la",tien_dien,"ngan dong")

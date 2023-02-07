@@ -1,0 +1,17 @@
+#cau3
+pi=3.14
+r_day=round(int(input("nhap ban kinh day:")), 2)
+chieu_cao=round(int(input("nhap chieu cao")), 2)
+
+#diện tích xung quanh có công thức: 2*pi*r*h
+xung_quanh=round(2*pi*r_day*chieu_cao, 2)
+
+#diện tích toàn phần có công thức: 2*pi*r^2+2*pi*r*h
+toan_phan=round(2*pi*r_day**2+xung_quanh, 2)
+
+#thể tích có công thức: pi*r^2*h
+
+the_tich=round(pi*r_day**2*chieu_cao, 2)
+print("dien tich xung quanh hinh tru la: ",xung_quanh)
+print("dien tich toan phan hinh tru la: ", toan_phan)
+print("the tich hihh tru la: ", the_tich)

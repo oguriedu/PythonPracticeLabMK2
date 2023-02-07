@@ -1,0 +1,9 @@
+#cau9
+print("nhap toa do cua diem:")
+x=int(input("nhap toa do diem x: "))
+y=int(input("nhap toa do diem y: "))
+z=int(input("nhap toa do diem z: "))
+
+print("diem doi xung qua Oxy la: (",x,";",y,";-",z,")")
+print("diem doi xung qua Oxz la: (",x,";-",y,";",z,")")
+print("diem doi xung qua Oyz la: (-",x,";",y,";",z,")")

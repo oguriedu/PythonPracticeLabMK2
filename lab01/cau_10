@@ -1,0 +1,7 @@
+#cau10
+from math import log
+x=int(input("nhap x: "))
+y=log(x,4)
+z=log(2,x)
+kq=y+z
+print(kq)

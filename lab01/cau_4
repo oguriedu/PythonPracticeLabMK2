@@ -1,0 +1,5 @@
+#cau4
+import math
+x=round(float(input("nhap gia tri x: ")))
+f_x=(-x+math.sqrt(x**2+4))/(x**4+1)**(1/7)
+print("gia tri cua pt la: ",f_x)

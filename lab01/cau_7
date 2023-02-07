@@ -1,0 +1,5 @@
+#cau7
+a=int(input("nhap gia tri a: "))
+b=int(input("nhap gia tri b: "))
+c=(-b)/(2*a)
+print(c)

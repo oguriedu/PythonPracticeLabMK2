@@ -1,0 +1,17 @@
+#cau8
+print("nhap toa do dinh thu nhat:")
+x1=int(input("nhap x1 "))
+y1=int(input("nhap y1"))
+
+print("nhap toa do diem thu 2")
+x2=int(input("nhap x2:"))
+y2=int(input("nhap y2:"))
+
+print("nhap toa do dinh thu 3:")
+x3=int(input("nhap x3:"))
+y3=int(input("nhap y3:"))
+
+x4=(x1+x2+x3)/3
+y4=(y1+y2+y3)/3
+
+print("trong tam cua tam giac co toa do: (",x4,y4,")")

@@ -1,0 +1,3 @@
+x = int(input("Nhap so lan tung xuc xac: "))
+ty_le = 1- (215/216)**x
+print('ty le can tim la: ', round(ty_le, 2))

@@ -1,0 +1,6 @@
+#cau2
+s=int(input("nhap so giay can doi:"))
+m=s/60
+h=m/60
+d=h/24
+print(s,"giay bang",d,"ngay",h,"gio",m,"phut")

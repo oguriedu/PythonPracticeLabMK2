@@ -7,4 +7,4 @@ Stp= 2*pi*r*h + 2*pi*r**2
 V= h*pi*r**2
 print (" diện tích xung quanh của khối trụ = : %0.2f"%Sxq)
 print (" diện tích toàn phần của khối trụ = : %0.2f"%Stp)
-print (" THỂ Tích của khối trụ = : %0.2f"%V)
+print (" THỂ Tích của khốii trụ = : %0.2f"%V)

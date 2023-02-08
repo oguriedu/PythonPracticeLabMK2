@@ -1,0 +1,6 @@
+x = int(input('Nhập x: '))
+y = int(input('Nhập y: '))
+z = int(input('Nhập y: '))
+print(f'Tọa độ đối xứng qua Oxy là: ({x},{y},{-z})')
+print(f'Tọa độ đối xứng qua Oxz là: ({x},{-y},{z})')
+print(f'Tọa độ đối xứng qua Oyz là: ({-x},{y},{z})')

@@ -1,10 +1,3 @@
-import random
-t=0
-while True:
-    a=random.randint(1,6)
-    b=random.randint(1,6)
-    c=random.randint(1,6)
-    if a==b==c==6:
-        break
-    t+=1
-print(round(1/t,3),round((1/6)**3,3),t)
+a=int(input('Nhập số lần tung xúc sắc: '))
+xs = 1-(215/216)**a
+print('xác suất khi tung {} lần 3 xúc sắc có ít nhất 1 lần cả 3 ra 6 là {} %'.format(a,round(xs*100,2)))

@@ -1,16 +1,14 @@
-d = int(input("Nhập số ngày: "))
-h = int(input("Nhập số giờ: "))
-m = int(input("Nhập số phút: "))
-s = int(input("Nhập số giây: "))
-
-# Tính tổng số giây
-tong_so_giay = d*24*60*60+h*60*60+m*60+s
-
-# Đổi từ giây sang ngày, giờ, phút, giây
-days = tong_so_giay // (24 * 60 * 60)
-hours = (tong_so_giay % (24 * 60 * 60)) // (60 * 60)
-minutes = (tong_so_giay % (60 * 60)) // 60
-seconds = tong_so_giay % 60
-
+#chương trình đổi đơn vị thời gian
+d=int(input("nhập số ngày = "))
+h=int(input("nhập số giờ = "))
+m=int(input('nhập số phút = '))
+s=int(input("nhập số giây = "))
+tong_so_giay=(d*24*3600)+(h*3600)+(m*60)+s
+print('tổng số giây = ')
+#thực hiện đổi 
+ngay=tong_so_giay//(24*3600)
+gio=(tong_so_giay%(24*3600))//(60*60)
+phut=(tong_so_giay%(60*60))//60
+giay=tong_so_giay%60
 print("Tổng số giây:", tong_so_giay)
-print("Tổng số ngày, giờ, phút, giây đã được đổi là :", days, "ngày,", hours, "giờ,", minutes, "phút,", seconds, "giây.")
+print("Tổng số ngày, giờ, phút, giây:", ngay, "ngày,", gio, "giờ,", phut, "phút,", giay, "giây.")

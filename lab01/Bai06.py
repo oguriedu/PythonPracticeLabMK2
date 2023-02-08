@@ -8,5 +8,5 @@ th=ts*0.00027777777777778
 #Tính điện năg tiêu thụ(kWh)
 A=P*th
 #Tính tiền điện
-tiendien=A*7000
-print('Tiền điện phải trả: ',tiendien,'vnđ')
+tdien=A*7000
+print('Tiền điện phải trả: ',tdien,'vnđ')

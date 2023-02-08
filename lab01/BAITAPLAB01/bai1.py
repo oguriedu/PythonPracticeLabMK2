@@ -1,0 +1,7 @@
+ma_sinh_vien=int(input("Nhập mã sinh viên: "))
+ho_ten=input("Nhập họ tên: ")
+que_quan=input("Nhập quê quán: ")
+nam_sinh=int(input("Nhập năm sinh: "))
+diem_trung_binh=float(input("Nhập điểm trung bình của năm: "))
+print('{:<20}{:<20}{:<20}{:<12}{:<30}'.format('Mã sinh viên','Họ tên','Quê quán','Năm sinh','Điểm trung bình của năm'))
+print('{:<20}{:<20}{:<20}{:<12}{:<30}'.format(ma_sinh_vien,ho_ten,que_quan,nam_sinh,diem_trung_binh))

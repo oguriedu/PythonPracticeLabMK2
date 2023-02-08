@@ -1,4 +1,4 @@
-print("pt:ax^2+bx+c")
+
 a=int(input('nhập a: '))
 b=int(input('nhập b: '))
 c=int(input('nhập c: '))

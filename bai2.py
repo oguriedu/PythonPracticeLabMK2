@@ -1,8 +1,0 @@
-s=int(input("nhập giây: "))
-h=int(input("nhập giờ: "))
-d=int(input("nhập ngày: "))
-m=int(input("nhập phút: "))
-print("{}ngày,{}giờ,{}phút,{}giây".format(d,h,m,s),"=",round(d+(h/24)+(m/1440)+(s/86400),2),"ngày")
-print("{}ngày,{}giờ,{}phút,{}giây".format(d,h,m,s),"=",round(d*24+h+(m/60)+(s/3600),2),"giờ")
-print("{}ngày,{}giờ,{}phút,{}giây".format(d,h,m,s),"=",round(d*1440+(h*60)+(m)+(s/60),2),"phút")
-print("{}ngày,{}giờ,{}phút,{}giây".format(d,h,m,s),"=",round(s+(m*24)+(h*1440)+(d*86400),2),"giây")

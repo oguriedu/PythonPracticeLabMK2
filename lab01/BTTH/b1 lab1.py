@@ -1,0 +1,6 @@
+MSSV=int(input("Nhập mã số sinh viên của bạn: "))
+ho_va_ten=str(input("Nhập họ tên của bạn: "))
+que_quan=str(input("Nhập quê quán của bạn: "))
+nam_sinh=str(input("Nhập năm sinh của bạn: "))
+diem_trung_binh=float(int(input("Nhập điểm trung bình qua các năm của bạn: ")))
+print("Thông tin của bạn là: ",MSSV,ho_va_ten,que_quan,nam_sinh,diem_trung_binh )

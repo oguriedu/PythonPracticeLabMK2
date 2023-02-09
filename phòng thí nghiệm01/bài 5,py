@@ -1,0 +1,5 @@
+#5
+a1,a2=map(float,input("nhập vecto a:").split())
+b1,b2=map(float,input("nhập vecto b:").split())
+ab=(a1*b1)+(a2*b2)
+print("tích vô hướng:",ab)

@@ -1,0 +1,6 @@
+a=float(input("Nhập a: "))
+b=float(input("Nhập b: "))
+c=float(input("Nhập c: "))
+dinh1=round((-b/(2*a)),2)
+dinh2=round((b**2-4*a*c)/(4*a),2)
+print("(",dinh1,";",dinh2,")")

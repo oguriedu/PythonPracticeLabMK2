@@ -9,7 +9,7 @@ if t>=1 and t<=12:
        print('tháng',t,'có 30 ngày')
     if t==2:
        n=eval(input('nhập năm:'))
-       if n%4==0:
+       if (n%4==0 and n%100 !=0 ) or n%400==0:
            print('tháng',t,'có 29 ngày')
        else:
            print('tháng 2 có 28 ngày')

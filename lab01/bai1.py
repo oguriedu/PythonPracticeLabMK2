@@ -1,0 +1,6 @@
+ma_so=int(input("mời nhập mã sinh viên: "))
+ten=str(input("mời nhập tên: "))
+que=str(input("mời nhập quê: "))
+nam_sinh=int(input("mời nhập năm sinh: "))
+diem_tb=float(input("mời nhập điểm trung bình: "))
+print("mã sinh viên: ",ma_so,"tên",ten,"quê quán: ",que,"nam sinh: ",nam_sinh,"điểm trung bình: ",diem_tb)

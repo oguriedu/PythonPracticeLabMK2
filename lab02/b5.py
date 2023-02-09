@@ -1,3 +1,4 @@
+
 thang=(1,2,3,4,5,6,7,8,9,10,11,12)
 while True:
     n=int(input("Nhập tháng : "))
@@ -5,4 +6,4 @@ while True:
     if n in thang:
         break
     print("nhập tháng sai !! vui lòng nhập lại.")
-print(lstthang[n])
+print(lstthang[n]) 

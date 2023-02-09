@@ -1,3 +1,4 @@
+
 from datetime import datetime
 a=input("Nhập ngày và tháng (cách nhau bởi dấu ;): ")
 b=a.split(";")

@@ -1,0 +1,10 @@
+student_id = input("Enter student ID: ")
+hometown = input("Enter hometown: ")
+birth_year = input("Enter birth year: ")
+average_grade = input("Enter average grade: ")
+
+print("Student Information:")
+print("ID: " + student_id)
+print("Hometown: " + hometown)
+print("Birth Year: " + birth_year)
+print("Average Grade: " + average_grade)

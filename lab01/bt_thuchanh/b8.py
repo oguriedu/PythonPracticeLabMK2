@@ -1,0 +1,11 @@
+a1,b1=map(float, input('Nhập các giá trị a1,b1:').split())
+a2,b2=map(float, input('Nhập các giá trị a2,b2:').split())
+a3,b3=map(float, input('Nhập các giá trị a3,b3:').split())
+import numpy as np
+A = np.array([a1, b1])
+B = np.array([a2, b2])
+C = np.array([a3, b3])
+G1=round((a1+a2+a3)/3,2)
+G2=round((b1+b2+b3)/3,2)
+G=(G1,G2)
+print('toạ độ trọng tâm G của tam giác là :',G)

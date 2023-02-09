@@ -7,5 +7,5 @@ elif diem<7:
     print("loại trung bình")
 elif diem<9:
     print("loại khá")
-else:
+else: cad;l
     print("loại giỏi")

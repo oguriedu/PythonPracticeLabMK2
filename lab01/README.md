@@ -1,1 +1,1 @@
-DHKL16A2HN-LuuGiaPhong-22174600035- Bài tập luyện tập lab 1
+DHKL16A2HN-LuuGiaPhong-22174600035

@@ -1,0 +1,6 @@
+x=float(input('Tọa độ x là: '))
+y=float(input('Tọa độ y là: '))
+z=float(input('Tọa độ z là: '))
+print('Tọa độ điểm đối xứng qua Oxy là: (',x,";",y,";",-z,")")
+print('Tọa độ điểm đối xứng qua Oxz là: (',x,";",-y,";",z,")")
+print('Tọa độ điểm đối xứng qua Oyz là: (',-x,";",y,";",z,")")

@@ -1,5 +1,4 @@
 print('CHƯƠNG TRÌNH QUẢN LÝ THÔNG TIN SINH VIÊN')
-from tabulate import tabulate
 ttsvien = []
 
 while True:
@@ -13,6 +12,4 @@ while True:
     if tt != '1':
         print('đã hoàn thành!')
         break
-
-name = ['mã sv', 'họ tên', 'quê quán', 'năm sinh', 'điểm trung bình các năm học']
-print(tabulate(ttsvien, headers=name, tablefmt='fancy_grid', showindex='always'))
+print(ttsvien)

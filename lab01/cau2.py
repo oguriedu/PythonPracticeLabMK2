@@ -1,4 +1,3 @@
-from tabulate import tabulate
 s = int (input('nhập số giây: '))
 m = int (input ('nhập số phút: '))
 h = int (input ('nhập số giờ: '))
@@ -26,5 +25,4 @@ else:
     days = d
 
 doi.append([second, minute, hours, days])
-name = ['giây', 'phút', 'giờ', 'ngày']
-print(tabulate(doi, headers=name, tablefmt='fancy_grid'))
+print(doi)

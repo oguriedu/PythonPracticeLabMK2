@@ -1,0 +1,7 @@
+ma_hs=int(input('nhap ma hoc sinh: '))
+ho_ten=input('ten hoc sinh: ')
+nam_sinh=int(input('nhap ma sinh vien:'))
+que_quan=input('nhap que quan:')
+diem_tb=float(input('nhap diem tb:'))
+print('{:<20}{:<30}{:<20}{:<15}{:<20}'.format('Mã sinh viên','Họ tên','Quê quán','Năm sinh','Điểm trung bình'))
+print('{:<20}{:<30}{:<20}{:<15}{:<20}'.format('ma_sv,ho_ten,que_quan,nam_sinh,diem_tb'))

@@ -1,0 +1,6 @@
+#6
+hieu_dien_the=220
+cuong_do_dong_dien=2.7
+thoi_gian=int(input("giây="))
+tien_dien=((hieu_dien_the*cuong_do_dong_dien*thoi_gian)/3600000*7000)
+print("số tiền điện=",tien_dien)

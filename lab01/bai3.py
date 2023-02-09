@@ -1,0 +1,8 @@
+h=float(input("Chiều cao: "))
+r=float(input('Bán kính :'))
+dtxq=float(2*3.14*r*h)
+dttp=float(2*3.14*r*r+2*3.14*r*h)
+tt=float(2*3.14*r*r*h)
+print(round(dtxq,2))
+print(round(dttp,2))
+print(round(tt,2))

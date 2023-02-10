@@ -1,0 +1,6 @@
+x=float(input('Nhập tạo độ x:'))
+y=float(input('Nhập tạo đô y:'))
+z=float(input('Nhập tạo độ z:'))
+print('Tạo độ đối xứng qua Oxy là:',(x,y,-z))
+print('Tạo độ đối xứng qua Oxz là:',(x,-y,z))
+print('Tọa độ đối xứng qua Oyz lầ:',(-x,y,z))

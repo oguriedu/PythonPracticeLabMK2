@@ -18,3 +18,4 @@ elif delta==0:
     print('pt có 1 nghiệm kép','x1=x2','=',-b/2*a)
 else:
     print('pt vô nghiệm')
+    

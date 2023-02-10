@@ -4,3 +4,4 @@ if nhap<100 :
     print(0)
 else:
     print("chữ số hàng trăm là: ",hangtram)
+    

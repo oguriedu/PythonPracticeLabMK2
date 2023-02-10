@@ -12,3 +12,4 @@ if so_kw>300:
     don_gia=5000*so_kw
 print("số tiền điện là: ",don_gia)
 
+

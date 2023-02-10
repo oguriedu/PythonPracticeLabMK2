@@ -12,3 +12,4 @@ if diem>=0 and diem<=10:
             print("loại Khá")
     else :
             print("loại giỏi")
+            

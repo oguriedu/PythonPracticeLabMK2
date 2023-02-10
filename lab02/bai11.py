@@ -14,3 +14,5 @@ if ngay==day[-1]:
         print('Ngày tiếp theo của ngày {} tháng {} là ngày 1 tháng {}'.format(ngay,month,month+1))
 else:
     print('Ngày tiếp theo của ngày {} tháng {} là ngày {} tháng {}'.format(ngay,month,ngay+1,month))
+
+    

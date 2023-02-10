@@ -27,5 +27,7 @@ elif hang_don_vi!=0 and hang_tram==1:
 
 
 print(doc1,"trăm",doc2,doc3)
+
             
+           
                 

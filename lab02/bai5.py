@@ -6,5 +6,6 @@ if thang<1 or thang>12:
 for i in range(1,len(thang_trong_nam)+1):
     if thang==i:
         print(thang_trong_nam[thang-1])
+        
 
 

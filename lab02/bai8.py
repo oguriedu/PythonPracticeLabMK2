@@ -11,3 +11,4 @@ else:
 lcb=1350000
 luong=hs*lcb
 print("lương nhân viên là: ",luong)
+

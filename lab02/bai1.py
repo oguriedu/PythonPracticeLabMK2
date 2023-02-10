@@ -15,3 +15,4 @@ thang_30=[4,6,9,11]
 for p in range(len(thang_30)):
     if thang_30[p]==nhap:
         print('tháng',nhap,"có 30 ngày")  
+        

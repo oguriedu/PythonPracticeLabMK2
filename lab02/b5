@@ -1,0 +1,7 @@
+a=int(input('Nhập tháng: '))
+while a>=12 and a<0:
+    a= int(input('Nhập lại tháng: '))
+    break
+thang = ['January',['February'],'March',['April'],'May','June','July','August','September','October','November','December']
+a= a-1
+print(thang[a])

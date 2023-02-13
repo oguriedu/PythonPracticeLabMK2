@@ -2,7 +2,7 @@ import math
 bk=float(input('nhập bán kính:'))
 h=float(input('nhập chiều cao:'))
 sxungquanh=2*math.pi*bk*h
-sxungquanh=round(sungquanh,2)
+sxungquanh=round(sxungquanh,2)
 stoanphan=(2*math.pi*bk**2)+(2*math.pi*bk*h)
 stoanphan=round(stoanphan,2)
 skhoitru=math.pi*bk**2*h

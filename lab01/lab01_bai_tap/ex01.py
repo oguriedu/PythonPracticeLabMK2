@@ -1,4 +1,4 @@
-pi = 3.14
+pi = 3.143
 r = float(input('Nhập số đo bán kính: '))
 h = float(input('Nhập số đo chiều cao: '))
 sxq = 2*pi*r*h

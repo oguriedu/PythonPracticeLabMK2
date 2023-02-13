@@ -1,5 +1,5 @@
 month = int(input("Nhập ngày trong tháng (1-12): "))
-
+#abc
 if month in [1, 3, 5, 7, 8, 10, 12]:
     print("31 ngày")
 elif month == 2:

@@ -1,1 +1,2 @@
-- Bài tập luyện tập lab 1
+- Bài tập luyện tập lab 1 KHDL16A1-NguyenThiNa-2217460084
+-nguyenthina-22174600084/lab1

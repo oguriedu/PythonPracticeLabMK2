@@ -1,2 +1,3 @@
 - Bài luyện tập lab 3
-  Vong lặp for
+- câu lệnh vòng lặp for
+phamthingoctu-22174600090

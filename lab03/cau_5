@@ -1,0 +1,6 @@
+#cau5
+x = int(input("chieu dai hinh chu nhat: "))
+y = int(input("chieu rong hinh chu nhat: "))
+fill = "*"
+for i in range(1, x+1):
+    print(fill*y)

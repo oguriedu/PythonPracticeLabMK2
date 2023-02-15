@@ -1,0 +1,8 @@
+#cau3
+n = int(input("hay nhap so n: "))
+if n == 2 or n == 3 or n == 5 or n == 7:
+    print("n la so nguyen to")
+elif n % 2 != 0 and n % 3 != 0 and n % 5 != 0 and n % 7 != 0:
+    print("n la so nguyen to")
+else:
+    print("n khong phai la so nguyen to")

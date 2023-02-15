@@ -1,12 +1,13 @@
-n=int(input('nhập n: '))
-def a(x):
-    i=1; s=0
-    while i<x:
-        if x%i==0: s=s+i
-        i+=1
-    if x==s: print(x)
-    return 
-c=1
-while c<n:
-    a(c)
-    c+=1
+n=int(input("mời nhập vào n: "))
+a=0
+for i in range(n+1):
+    n-=1
+    a*=0
+    for j in range(0,n-1):
+        j+=1
+        if n%j==0:
+            a+=j
+    if a==n :
+        print(a)   
+    if n==1:
+        break

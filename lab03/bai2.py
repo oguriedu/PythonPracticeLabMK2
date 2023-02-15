@@ -6,5 +6,4 @@ for i in range(1, n):
         if i % j == 0:
             sum += j
     if sum == i:
-        print(i)
-        
+        print(i)     

@@ -30,4 +30,3 @@ else:
     closest = find_closest_prime(n)
     print(n, "không phải là số nguyên tố")
     print("Số nguyên tố gần nhất là:", closest)
-    

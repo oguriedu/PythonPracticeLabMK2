@@ -7,4 +7,3 @@ for i in range(chieu_cao):
     for j in range(chieu_rong):
         print('*', end=' ')
     print()
-

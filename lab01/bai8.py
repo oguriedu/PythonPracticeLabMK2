@@ -8,4 +8,4 @@ g=[]
 for i in range (len(tda)):
     m=(int(tda[i])+int(tdb[i])+int(tdc[i])/3)
     g.append(m)
-print("Tọa độ trọng tâm tam giác ABC là",g)
+print("Tọaa độ trọng tâm tam giác ABC là",g)

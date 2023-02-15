@@ -8,4 +8,4 @@ elif diem<7:
 elif diem<9:
     print("loại khá")
 else:
-    print("loại giỏi")
+    print("loại giỏi ")

@@ -14,6 +14,6 @@ def ngay(thang,nam):
         elif thang==2:
             print('tháng',thang,'có 28 ngày')
         else:
-            print('tháng',thang,'có 30 ngày')
+            print('tháng',thang,'có 30 ngày ')
     return
 ngay(thang,nam)

@@ -21,6 +21,6 @@ def giaiptb2(a,b,c):
         else:
             x1 =  (-b+math.sqrt(abs(delta)))/(2*a)
             x2 =  (-b-math.sqrt(abs(delta)))/(2*a)
-            print("Phương trình có 2 nghiệm phức :",x1,"*i","và",x2,"*i")
+            print("Phương trình có 2 nghiệm phức :",x1,"*i","và",x2,"*i ")
     return
 giaiptb2(a,b,c)

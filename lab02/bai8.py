@@ -8,4 +8,4 @@ elif a<60:
     t=t*3.66
 else:
     t=t*3.99
-print("lương của bạn là",t)
+print("lương của bạn là ",t)

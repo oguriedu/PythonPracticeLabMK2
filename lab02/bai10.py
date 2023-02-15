@@ -3,7 +3,7 @@ k=input("nhập giờ bắt đầu và kết thúc(cách nhau bởi giấu ;) th
 b=k.split(";")
 while (int(b[0])<5)or(int(b[0])>22):
     print("khung giờ không hợp lệ")
-    k=input("nhập giờ bắt đầu và kết thúc(cách nhau bởi giấu ;) thuê sân: ")
+    k=input("nhập giờ bắt đầu và kết thúc(cách nhau bởi giấu ;) thuê sân : ")
 a=int(b[1])-int(b[0])
 if(a<=3):
      a= a*100000

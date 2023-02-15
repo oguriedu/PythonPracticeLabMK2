@@ -1,7 +1,7 @@
 n=int(input('Nhập ngày: '))
 t=int(input('Nhập tháng: '))
 while (n==31)and(t==4 or t==6 or t==9 or t==11 ):
-    print('Ngày tháng không hợp lệ mời nhập lại ! ')
+    print('Ngày tháng không hợp lệ mời nhập lại  ! ')
     n=int(input('Nhập ngày: '))
     t=int(input('Nhập tháng: '))
 if n==30 and (t==4 or t==6 or t==9 or t==11 ):

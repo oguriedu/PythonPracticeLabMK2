@@ -1,3 +1,4 @@
+
 n=int(input("Enter interger:"))
 list=[]
 def shh(n):

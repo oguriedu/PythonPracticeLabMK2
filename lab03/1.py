@@ -1,4 +1,4 @@
-n= int(input("Nhap n:"))
+n= int(input("Nhập số n:"))
 tong=1
 s=1
 for i in range (0, n):

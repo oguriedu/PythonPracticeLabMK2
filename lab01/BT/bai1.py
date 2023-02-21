@@ -1,6 +1,0 @@
-ma_sinhvien=input("nhap ma sinh vien : ")
-ho_ten=input("Ho va ten : ")
-que_quan=input("Que quan : ")
-nam_sinh=input("Nam sinh : ")
-diem_trung_binh=float(input("Diem trung binh cac nam hoc : "))
-print("ma sinh vien",ma_sinhvien,"ho va ten",ho_ten,"que quan",que_quan,"nam sinh",nam_sinh,"diem trung binh",diem_trung_binh)

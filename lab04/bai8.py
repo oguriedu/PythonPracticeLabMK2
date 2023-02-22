@@ -1,0 +1,5 @@
+n = input('nhập kí tự:')
+print('giá thập phân của',n,'trong bảng ascii là',ord(n))
+print('giá trị thập lục phân là',hex(ord(n)))
+print('giá trị nhị phân là',bin(ord(n)))
+# print('hệ nhị phân của',n,'là',bin(n))

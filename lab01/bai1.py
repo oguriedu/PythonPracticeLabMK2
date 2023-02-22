@@ -1,0 +1,6 @@
+a = input('Nhập mã số sinh viên:')
+b = input('Họ tên sinh viên:')
+c = input('Quê quán:')
+d = input('Năm sinh:')
+e = input('Điểm trung bình năm học:')
+print('|','{:^20}'.format(a),'|','{:^20}'.format(b),'|','{:^20}'.format(c),'|','{:^20}'.format(d),'|','{:^20}'.format(e),'|')

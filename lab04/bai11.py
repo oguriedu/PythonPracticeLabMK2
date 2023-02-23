@@ -25,20 +25,26 @@ while True:
         else:
             print("Số bạn chọn không hợp lệ. Vui lòng thử lại.")
         n=int(input("bạn muốn làm gì tiếp: 1:chọn đồ tiếp ,2:xem lại order, 3:dừng lại, 4:xóa order cũ "))
-    os.system("cls")
-    if n==3:
+    elif n==3:
         break
-    if n==2:
+    elif n==2:
         os.system("cls")
         for i in l:
             print(f"bạn đã chọn {i}")
         n=int(input("bạn muốn làm gì tiếp: 1:chọn đồ tiếp ,2:xem lại order, 3:dừng lại, 4: xóa order cũ "))
-    if n==4:
+    elif n==4:
         os.system("cls")
         for i in l:
             print(f"bạn đã chọn {i}")
         deleteorder=int(input("nhập thứ tự order muốn xóa: "))
-        l.pop(deleteorder-1)
+        try:
+            l.pop(deleteorder-1)
+            n=int(input("bạn muốn làm gì tiếp: 1:chọn đồ tiếp ,2:xem lại order, 3:dừng lại, 4: xóa order cũ "))
+        except:
+            print("thứ tự không hợp lệ")
+        n=int(input("bạn muốn làm gì tiếp: 1:chọn đồ tiếp ,2:xem lại order, 3:dừng lại, 4: xóa order cũ "))
+    else:
+        print("lựa chọn của bạn không hợp lệ")
         n=int(input("bạn muốn làm gì tiếp: 1:chọn đồ tiếp ,2:xem lại order, 3:dừng lại, 4: xóa order cũ "))
 os.system("cls")
 for i in l:

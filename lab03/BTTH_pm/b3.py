@@ -13,5 +13,3 @@ for i in range(2,n):
     if n==True:
         print(n, end=" ")
 
-
-        '.'

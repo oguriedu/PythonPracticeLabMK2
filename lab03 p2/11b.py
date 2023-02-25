@@ -3,3 +3,5 @@ print("   * *")
 print("  *   *")
 print(" *     *")
 print("* * * * *")
+
+

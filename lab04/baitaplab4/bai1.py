@@ -1,0 +1,22 @@
+n=int(input("nhập vào số nguyên dương n: "))
+while n<=0:
+    print("vui lòng nhập n lớn hơn 000000000")
+    n=int(input("nhập lại số nguyên dương n:"))
+s4=0
+i=2
+while i<=n:
+    s4+=i*i
+    i+=1
+i=3
+s5=13
+while i<= (2*n+1):
+    s5+=i**i
+    i+=2
+i=4
+s6=24
+while i<=(2*n):
+    s6=i**4
+    i+=2
+print("s4=",s4)
+print("s5=",s5)
+print("s6=",s6)

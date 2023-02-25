@@ -19,4 +19,4 @@ k=1
 for i in range(1,n+1):
     cos+=(((-1)**k)*(x**(2*i)))/tinhgiaithua(2*i)
     k+=1
-print(cos)
+print(cos )

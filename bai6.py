@@ -8,5 +8,5 @@ for num in tach_so:
     for j in range(0,len(so)-1):
         if num==j:
             in_ra+=so[j]
-            in_ra+=" "
+            in_ra+="  "
 print(in_ra)

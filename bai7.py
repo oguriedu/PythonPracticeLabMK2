@@ -6,4 +6,4 @@ while x!=y:
         x-=y
     else:
         y-=x
-print(f'boi so chung nho nhat cua {a} va {b} la:{a*b//x} ',)
+print(f'boi so chung nho nhat cua {a} va {b} la:{a*b//x} ', )

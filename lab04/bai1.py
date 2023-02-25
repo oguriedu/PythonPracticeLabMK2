@@ -29,7 +29,7 @@ a=1
 while a!= (n+1):
     s6 = (2*a)**4
     a +=1
-print ("tổng vòng lặp s6 =", s6)
+print ("tổng vòng lặp s6 =", s6 )
 
 
 

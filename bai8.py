@@ -1,2 +1,2 @@
-nhap=(input('moi nhap mot gia tri: '))
+nhap=(input('moi nhap mot gia tri : '))
 print(ord(nhap))

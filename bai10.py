@@ -13,4 +13,4 @@ for num in so:
             chuoi+=dem[j]
             chuoi+=" "
 print(nhap)
-print(chuoi)
+print(chuoi )

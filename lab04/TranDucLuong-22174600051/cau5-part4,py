@@ -1,0 +1,6 @@
+while True:
+    n=float(input("Nhập số:"))
+    if n>=0:
+        print(n)
+    else:
+        break

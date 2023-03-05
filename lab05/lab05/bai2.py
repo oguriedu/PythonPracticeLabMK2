@@ -4,7 +4,7 @@ khong_so=0
 for i in nhap:
     kiem_tra=i.isascii()
     so=i.isnumeric()
-    if kiem_tra==True:
+    if kiem_tra==False:
         khong+=1
     if so==False:
         khong_so+=1

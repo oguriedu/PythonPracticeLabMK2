@@ -1,13 +1,16 @@
-str1=input('moi nhap chuoi thu 1: ')
-str2=input('moi nhap chuoi thu 2: ')
-lst1=str1.strip().split(" ")
-lst2=str2.strip().split(" ")
-chung=''
+str1=input('mời nhập chuỗi 1: ')
+str2=input("mời nhập chuỗi 2: ")
+chuoi_chung = ""
+len1, len2 = len(str1), len(str2)
+for i in range(len1):
+    for j in range(len2):
+        so = 0
+        giong = ''
+        while ((i+so < len1) and (j+so<len2) and str1[i+so] == str2[j+so]):
+            giong += str2[j+so]
+            so += 1
+        if len(giong) > len(chuoi_chung):
+            chuoi_chung = giong
+    
 
-if len(lst1)==len(lst2):
-    for i in range(0,len(lst1)-1):
-        if lst1[i]==lst2[i]:
-            chung+=lst1[i]
-        else:
-            chung=''
-print(chung)
+print(chuoi_chung)

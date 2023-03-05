@@ -16,8 +16,8 @@ for k in range(1,len(a_so)):
         so3=b_so[:l]
         so4=b_so[l:]
         kiem_tra1=int(so3)+int(so4)
-    if kiem_tra==kiem_tra1:
-        print(f"{so}+{so1}={so3}+{so4}")
+        if kiem_tra==kiem_tra1:
+            print(f"{so}+{so1}={so3}+{so4}")
 if kiem_tra!=kiem_tra1:
         print("khong ton tai cach dat")
         

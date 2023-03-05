@@ -5,6 +5,10 @@ for i in str1:
         str1 = str1.replace(i,' ')
 a = str1.split()
 
+for i in a:
+    if i not in str2:
+        a.remove(i)
+        
 print(a)
 if a == []:
     print('2 chuỗi str1 và str2 không có chuỗi ký tự con chung!')

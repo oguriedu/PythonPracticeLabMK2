@@ -1,0 +1,7 @@
+x=int(input("nhap x: "))
+y=int(input("nhap y: "))
+z=int(input("nhap z: "))
+print(f"qua oxyz: ({x},{y},{z})")
+print(f"qua oxy: ({x},{y},{-z})")
+print(f"qua oxz: ({x},{-y},{z})")
+print(f"qua oyz: ({-x},{y},{z})")

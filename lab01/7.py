@@ -1,0 +1,5 @@
+a=float(input("nhap so: "))
+b=float(input("nhap so: "))
+c=float(input("nhap so: "))
+d=(-b/2*a)
+print("dinh cua phuong trinh la: %0.2f"%d)

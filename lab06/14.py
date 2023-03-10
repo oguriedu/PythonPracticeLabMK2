@@ -9,13 +9,17 @@ for p in password:
             if point>=1:
                 continue
             point+=1          
-        elif c.isalpha():
+        elif 'A'<=c<='Z':
             if point>=2:
                 continue
             point+=1
-        else:
+        elif 'a'<=c<='z':
             if point>=3:
                 continue
             point+=1
-    if point==3:
+        else:
+            if point>=4:
+                continue
+            point+=1
+    if point==4:
         print(p[0:12])

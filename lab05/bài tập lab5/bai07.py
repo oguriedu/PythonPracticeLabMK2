@@ -1,0 +1,2 @@
+a='…Vắng lặng đến phát sợ. Cây còn lại xơ xác. Đất nóng. Khói đen vật vờ từng cụm trong không trung, che đi những gì từ xa. Các anh cao xa có nhìn thấy chúng tôi không? Chắc cô, các anh ấy có những cái ống nhòm có thể thu cả trái đất vào tầm mắt. Tôi đến gần quả bom. Cảm thấy có ánh mắt các chiến sỹ dõi theo mình, tôi không sợ nữa. Tôi sẽ không đi khom. Các anh ấy không thích cái kiểu đi khom khi có thể cứ đàng hoàng mà bước tới.'
+b=input('Nhập từ cần tìm: ')

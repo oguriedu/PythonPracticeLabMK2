@@ -1,0 +1,38 @@
+n=10
+sum=0
+a=[2, -4, 1, 9, -3, 6, 3, -2, 6, 8]
+for i in range(0,n): 
+    print(a[i],' ',end='')
+print()
+#tinh tong cac phan tu trong danh sach
+'''for i in range(0,n):
+    sum+=a[i]
+print(f'tổng = {sum}')
+#dem so luong cac so hang duong vaf tong so
+count=0
+sumd=0
+for i in range(0,n):
+    if a[i]>0:
+        count+=1
+        sumd+=a[i]
+print(f'số hạng dương là {count}')
+print(f'tổng các số hạng dương là {sumd}')
+
+#tim vi trí phần tử âm trong danh sách
+i=0
+while a[i]>=0:
+    i+=1
+    if i==n:
+       break
+if i==n:
+    print('Không có phần tử âm')
+else:
+    print('Vị trí phần tử âm đầu tiên:',i+1)'''
+#tìm phân tử dương cuối cùng trong danh sách
+i=n-1
+while a[i]<=0:
+    i-=1
+    if i==-1:
+        break
+if i>-1:
+    print('vị trí',i+1)

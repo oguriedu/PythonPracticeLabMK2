@@ -39,3 +39,11 @@ if i==-1:
     print ("không có phần tử dương")
 else:
     print ("vị trí phần tử dương cuối cùng là:", i+1) 
+
+# Tìm phần tử lớn nhất và vị trí phần tử lớn nhất cuối cùng
+max=a[0]
+vt=0
+for i in range(1,n-1):
+    if a[i]>max:
+        max=a[i]
+        vt=iprint('Số lớn nhất là',max,'tại vị trí',vt+1)

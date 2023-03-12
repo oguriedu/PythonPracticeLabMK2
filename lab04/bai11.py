@@ -42,4 +42,3 @@ while True:
     else:
         print('mời bạn nhập lại!!!')
         continue
-

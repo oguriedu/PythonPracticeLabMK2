@@ -7,4 +7,4 @@ A = [random.randint(1,99999) for i in range(1000)]
 A_sorted = sorted(A)
 
 # In ra 10 phần tử đầu tiên của dãy A_sorted
-print(A_sorted[:10])
+print(A_sorted[:10]) 

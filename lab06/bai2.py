@@ -30,4 +30,4 @@ for i in lst1:
     if max<sum(i):
         max=sum(i)
         count=len(i)
-print(f"Số lượng các số dương liên tiếp có tổng lớn nhất là {count}")
+print(f"Số lượng các số dương liên tiếp có tổng lớn nhất là {count}") 

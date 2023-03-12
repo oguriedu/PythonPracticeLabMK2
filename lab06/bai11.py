@@ -14,4 +14,4 @@ print("List C: ", c)
 # c. Tạo listD gồm các phần tử lấy ngẫu nhiên từ ListA mà chia hết cho 3
 d = [x for x in a if x % 3 == 0]
 random.shuffle(d)
-print("List D: ", d)
+print("List D: ", d) 

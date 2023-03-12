@@ -22,4 +22,4 @@ lst.sort()
 print("Danh sách mới sau khi sắp xếp tăng dần:", lst)
 
 lst.sort(reverse=True)
-print("Danh sách mới sau khi sắp xếp giảm dần:", lst)
+print("Danh sách mới sau khi sắp xếp giảm dần:", lst) 

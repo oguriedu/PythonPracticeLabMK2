@@ -17,4 +17,4 @@ sum_sale = 0
 for day in List_: 
     if day[0] == "tue" or day[0] == "wed" or day[0] == "sat" or day[0] == "sun": sum_sale += day[1]
 
-print("Tổng sale value trong các ngày thứ 2, thứ 3, thứ 7 và chủ nhật là", sum_sale)
+print("Tổng sale value trong các ngày thứ 2, thứ 3, thứ 7 và chủ nhật là", sum_sale) 

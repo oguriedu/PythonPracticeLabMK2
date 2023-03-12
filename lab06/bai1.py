@@ -46,4 +46,4 @@ vt=0
 for i in range(1,n-1):
     if a[i]>max:
         max=a[i]
-        vt=print('Số lớn nhất là',max,'tại vị trí',vt+1)
+        vt=print('Số lớn nhất là',max,'tại vị trí',vt+1) 

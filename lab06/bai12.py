@@ -13,4 +13,4 @@ while True:
     elif transaction_type == 'W':
         balance -= amount
     
-print('Số tiền thực trong tài khoản là:', balance)
+print('Số tiền thực trong tài khoản là:', balance) 

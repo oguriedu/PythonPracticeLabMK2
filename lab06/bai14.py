@@ -17,7 +17,7 @@ def is_valid_password(password):
     return True
 
 # Nhập danh sách mật khẩu từ người dùng, được phân tách bằng dấu phẩy
-passwords = input("Nhập danh sách mật khẩu, phân tách bằng dấu phẩy: ").split(",")
+passwords = input("Nhập danh sách mật khẩu, phân tách bằng dấu phẩy: ").split(",") 
 
 # Lặp qua mỗi mật khẩu và kiểm tra tính hợp lệ
 valid_passwords = []

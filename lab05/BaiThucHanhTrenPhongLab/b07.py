@@ -1,0 +1,4 @@
+n = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus, urna quis sodales hendrerit, ante purus volutpat urna, in efficitur turpis sapien at erat. Cras vitae imperdiet purus. Mauris tempus ipsum nibh, sed vehicula enim rutrum in. Nulla congue sollicitudin nibh ut pellentesque. Mauris tempus velit mattis, tempor felis sit amet, consectetur dui. In rhoncus elit et magna egestas, ac bibendum augue condimentum. Integer sed nisl pulvinar nibh elementum faucibus. Vivamus lectus neque, fermentum eget erat id, porttitor ultricies ex. Nulla facilisi."
+a = n.split()
+Str = input("Nhập chuỗi cần tìm: ")
+print(a.count(Str))

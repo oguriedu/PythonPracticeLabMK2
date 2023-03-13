@@ -1,0 +1,5 @@
+a=float(input('Nhập a :'))
+b=float(input('Nhập b :'))
+c=float(input('Nhập c :'))
+tddinh=(-b/2*a)
+print(f'Toạ độ đỉnh của pt bậc 2 là :{tddinh:.2f}')
